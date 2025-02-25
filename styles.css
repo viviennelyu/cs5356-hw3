@@ -22,7 +22,7 @@
 
 .gradient-bg {
     /* background: linear-gradient(45deg, #ffb7ce, #89CFF0);*/
-    background: #013220
+    background: #013220;
     padding: 20px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -30,4 +30,14 @@
 
 body {
     font-family: 'Sigmar', cursive;
+}
+
+/* Make only headings bold */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/* Ensure all other text remains normal */
+body, p, li, a, span, div {
+    font-weight: normal;
 }
