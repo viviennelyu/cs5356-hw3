@@ -21,8 +21,8 @@
 }
 
 .gradient-bg {
-    background: linear-gradient(45deg, #f8a1e7, #9ad4f3);
+    background: linear-gradient(45deg, #ffb7ce, #89CFF0);
     padding: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
