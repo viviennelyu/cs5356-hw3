@@ -10,3 +10,13 @@ async function fetchPomeranian() {
 
 
 fetchPomeranian();
+
+document.addEventListener("mousemove", function(event) {
+    let x = event.clientX / window.innerWidth;
+    let y = event.clientY / window.innerHeight;
+    let red = Math.round(x * 255);
+    let blue = Math.round(y * 255);
+    let color = `rgb(${red}, 100, ${blue})`;
+
+    document.body.style.backgroundColor = color;
+});
